@@ -1,0 +1,3 @@
+model_checkpoint_path: "/root/mycode/results/DNNmodel/gaussian_ic_model.ckpt"
+all_model_checkpoint_paths: "/root/mycode/results/DNNmodel/gaussian_ic_model.ckpt_best"
+all_model_checkpoint_paths: "/root/mycode/results/DNNmodel/gaussian_ic_model.ckpt"
