@@ -1,0 +1,4 @@
+input_dim: 1728
+output_dim: 72
+hidden_dims: [200, 80, 80]
+model_type: IMAC_DNN_TF1

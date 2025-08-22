@@ -1,0 +1,10 @@
+DNN预测结果统计信息
+========================================
+num_samples: 10000
+num_users: 72
+mse: 0.000000
+mae: 0.000000
+rmse: 0.000000
+prediction_time: 2025-08-21 22:35:58
+avg_prediction_time_per_sample_seconds: 0.000009
+avg_prediction_time_per_sample_milliseconds: 0.009078

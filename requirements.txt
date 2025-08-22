@@ -1,0 +1,48 @@
+# DNN项目依赖包
+# 支持IC和IMAC信道功率分配的深度神经网络实现
+
+# Python版本要求
+python_requires>=3.6
+
+# 核心依赖
+numpy>=1.18.0
+scipy>=1.4.0
+matplotlib>=3.1.0
+
+# 深度学习框架
+# 推荐使用TensorFlow 1.15 (与代码完全兼容)
+tensorflow==1.15.0
+# 如果使用GPU版本，请安装: tensorflow-gpu==1.15.0
+
+# 数据处理
+pandas>=1.0.0
+
+# 多进程支持 (用于大规模数据生成)
+multiprocessing-logging>=0.3.0
+
+# 可选依赖 (用于性能监控和可视化)
+tqdm>=4.40.0
+seaborn>=0.10.0
+
+# Python类型提示支持
+typing-extensions>=3.7.0
+
+# 科学计算优化
+numba>=0.48.0  # 可选，用于加速数值计算
+
+# 内存管理 (用于大规模数据处理)
+psutil>=5.6.0
+
+# 注意事项:
+# 1. Python版本要求: >=3.6 (推荐3.6-3.8，与TensorFlow 1.15兼容性最佳)
+# 2. TensorFlow版本建议使用1.15.0，与项目代码完全兼容
+# 3. 如果使用TensorFlow 2.x，需要启用兼容模式
+# 4. GPU版本需要相应的CUDA和cuDNN支持
+# 5. 在某些环境中可能需要降级某些包版本以确保兼容性
+
+# 开发环境依赖 (可选)
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# 测试依赖 (可选)
+pytest>=5.0.0
