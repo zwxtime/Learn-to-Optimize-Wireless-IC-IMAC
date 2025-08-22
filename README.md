@@ -2,7 +2,7 @@
 
 本项目实现了基于深度神经网络(DNN)的无线通信系统功率分配优化，包括干扰信道(IC)和干扰多址接入信道(IMAC)两种场景。项目对比了DNN方法与传统WMMSE算法的性能。
 
-## 📋 项目概述
+##  项目概述
 
 ### IC (干扰信道) 部分
 - **数据生成**: 使用WMMSE算法生成高斯干扰信道数据
@@ -14,7 +14,7 @@
 - **DNN模型训练**: 基于TensorFlow 1.x的深度神经网络训练
 - **流式处理**: 支持批量数据处理和内存优化
 
-## 🗂️ 项目结构
+##  项目结构
 
 ```
 DNN/
@@ -35,7 +35,7 @@ DNN/
     └── imac_dnn_results_tf1_streaming/  # 训练曲线和性能对比图
 ```
 
-## 🚀 快速开始
+##  快速开始
 
 ### 1. 环境准备
 
@@ -80,7 +80,7 @@ python generate_imac_dataset.py
 python train_imac_dnn_tf1.py
 ```
 
-## 📊 核心功能详解
+##  核心功能详解
 
 ### IC信道 (IC/)
 
@@ -151,7 +151,7 @@ python train_imac_dnn_tf1.py
 - **训练损失**: 模型收敛情况
 - **测试精度**: 泛化性能评估
 
-## 🛠️ 故障排除
+##  故障排除
 
 ### 常见问题
 
@@ -181,7 +181,7 @@ python train_imac_dnn_tf1.py
    pip install tensorflow-gpu==1.15.0
    ```
 
-## 🔬 算法原理
+##  算法原理
 
 ### WMMSE算法
 - **全称**: Weighted Minimum Mean Square Error
@@ -193,7 +193,7 @@ python train_imac_dnn_tf1.py
 - **训练**: 使用WMMSE结果作为标签进行监督学习
 - **网络结构**: 全连接深度神经网络
 
-## 📚 参考文献
+##  参考文献
 
 本项目实现基于相关无线通信和深度学习研究论文，详细算法原理请参考相关学术文献。
 
@@ -205,7 +205,7 @@ python train_imac_dnn_tf1.py
 3. TensorFlow环境配置
 4. 系统内存和存储空间
 
-## 📝 更新日志
+##  更新日志
 
 - **v1.0**: 初始版本，包含IC和IMAC完整实现
 - 支持TensorFlow 1.x和2.x兼容模式
